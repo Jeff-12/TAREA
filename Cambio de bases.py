@@ -4,4 +4,4 @@ def aCadena(n,base):
          return Tabla[n]
     else:
         return aCadena(n//base,base)+Tabla[n%base]
-print(aCadena(12,10)) 
+print(aCadena(12,10))
