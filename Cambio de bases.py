@@ -4,6 +4,7 @@ def aCadena(n,base):
          return Tabla[n]
     else:
         return aCadena(n//base,base)+Tabla[n%base]
+<<<<<<< HEAD
 def test_aCadena():
     assert aCadena(10,5)==20
     assert aCadena(20,7)==26
@@ -23,3 +24,6 @@ def test_cambio():
     assert cambio(20,6)==12
 print (cambio(1010001110,2))
 print (cambio(3201,4))
+=======
+print(aCadena(12,10))
+>>>>>>> f523ce24ece2ca544aed51ec2a08d6338f379706
