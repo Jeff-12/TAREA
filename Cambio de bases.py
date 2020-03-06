@@ -8,7 +8,7 @@ def test_aCadena():
     assert aCadena(10,5)==20
     assert aCadena(20,7)==26
 print(aCadena(23,10))
-print(aCadena(15,6))
+print(aCadena(14,6))
 
 
 def cambio(a,b):
